@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Atreus PC | Repuestos, Servicio Técnico y Equipos Nuevos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <meta name="description" content="Venta de repuestos de PC, servicio técnico y armado de computadoras en Ayacucho." />
+  <meta name="keywords" content="PC Ayacucho, repuestos PC, servicio técnico Ayacucho, Atreus PC, computadoras" />
+  <meta name="author" content="Atreus PC" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- ========================================================= -->
+  <!-- 🔷 HEADER / NAVBAR -->
+  <!-- ========================================================= -->
+  <header class="header">
+    <div class="container header__content">
+      <div class="header__logo">
+        <span class="header__logo-text">Atreus <span>PC</span></span>
+      </div>
+
+      <!-- Botón hamburguesa (solo móvil) -->
+      <button id="navToggle" class="nav__toggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#repuestos" class="nav__link">Repuestos</a></li>
+          <li><a href="#servicio" class="nav__link">Servicio</a></li>
+          <li><a href="#equipos" class="nav__link">Equipos</a></li>
+          <li><a href="#historial-equipos" class="nav__link">Historial PCs</a></li>
+          <li><a href="#historial-componentes" class="nav__link">Componentes</a></li>
+          <li><a href="#contacto" class="nav__link nav__link--cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón de cambio de tema -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 HERO / PORTADA -->
+  <!-- ========================================================= -->
+  <section id="inicio" class="hero">
+    <div class="container hero__content">
+      <div class="hero__text">
+        <h1 class="hero__title">Repuestos y Servicio Técnico Profesional</h1>
+        <p class="hero__subtitle">
+          Diagnóstico, mantenimiento, venta de componentes y armado de PCs listas para gaming, oficina y diseño.
+        </p>
+        <div class="hero__actions">
+          <a href="#repuestos" class="btn btn--primary">Ver repuestos</a>
+          <a href="#servicio" class="btn btn--secondary">Solicitar arreglo</a>
+        </div>
+        <p class="hero__whatsapp"><strong>WhatsApp:</strong> +51 999 999 999 · Ayacucho</p>
+      </div>
+
+      <div class="hero__image">
+        <div class="hero__image-placeholder">Imagen del taller aquí</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 SECCIÓN: REPUESTOS -->
+  <!-- ========================================================= -->
+  <section id="repuestos" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Repuestos de PC</h2>
+        <p class="section__subtitle">Componentes originales de marcas reconocidas.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card product">
+          <div class="card__image">
+            <img src="assets/img/repuesto-1.jpg" alt="Tarjeta gráfica" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Tarjetas de Video</h3>
+            <p class="card__text">NVIDIA y AMD desde gama media a alta.</p>
+            <p class="product__price">Desde S/ 700</p>
+            <p class="product__tag">Stock limitado</p>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="card__image">
+            <img src="assets/img/repuesto-2.jpg" alt="Memorias RAM" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Memorias RAM</h3>
+            <p class="card__text">DDR3, DDR4 y DDR5 para cualquier PC.</p>
+            <p class="product__price">Desde S/ 80</p>
+            <p class="product__tag product__tag--success">Instalación gratuita</p>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="card__image">
+            <img src="assets/img/repuesto-3.jpg" alt="Almacenamiento SSD" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Almacenamiento</h3>
+            <p class="card__text">SSD SATA, NVMe y HDD de alta capacidad.</p>
+            <p class="product__price">Desde S/ 90</p>
+            <p class="product__tag product__tag--warning">Mejora la velocidad</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 SERVICIO TÉCNICO -->
+  <!-- ========================================================= -->
+  <section id="servicio" class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Servicio Técnico</h2>
+        <p class="section__subtitle">Reparación, mantenimiento y optimización profesional.</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div>
+          <ul class="list">
+            <li class="list__item">🔧 Formateo + instalación de Windows</li>
+            <li class="list__item">🧹 Limpieza interna y cambio de pasta térmica</li>
+            <li class="list__item">⚡ Solución de fallas y pantallas negras</li>
+            <li class="list__item">🎮 Optimización para juegos</li>
+            <li class="list__item">💾 Recuperación de datos</li>
+          </ul>
+          <p class="section__note">Diagnóstico desde S/ 20.</p>
+        </div>
+
+        <div class="card service-card">
+          <h3 class="card__title">Servicio Express</h3>
+          <p class="card__text">Atención prioritaria para emergencias de estudio o trabajo.</p>
+          <p class="service-card__item">⏱ Tiempo: 24–48h</p>
+          <p class="service-card__item">📍 Taller en Ayacucho</p>
+          <a href="#contacto" class="btn btn--primary btn--full">Solicitar servicio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 EQUIPOS NUEVOS ARMADOS -->
+  <!-- ========================================================= -->
+  <section id="equipos" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Equipos Nuevos Armados</h2>
+        <p class="section__subtitle">Precios de referencia según tiendas de Ayacucho.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <!-- Oficina -->
+        <article class="card build">
+          <div class="card__body">
+            <h3 class="card__title">PC Oficina Básica</h3>
+            <p class="build__usage">Clases, ofimática, navegador.</p>
+            <ul class="build__specs">
+              <li>Core i5 12va / Ryzen 5</li>
+              <li>8 GB RAM</li>
+              <li>SSD 500 GB</li>
+              <li>Monitor 23.8"</li>
+            </ul>
+            <p class="build__price">Desde S/ 1,770</p>
+            <p class="build__tag">Ref. Infotron</p>
+          </div>
+        </article>
+
+        <!-- Gamer -->
+        <article class="card build card--highlight">
+          <div class="card__body">
+            <h3 class="card__title">PC Gamer Ayacucho</h3>
+            <p class="build__usage">Gaming competitivo y streaming ligero.</p>
+            <ul class="build__specs">
+              <li>Ryzen 5 5600</li>
+              <li>16 GB RAM</li>
+              <li>SSD 512 GB</li>
+              <li>RTX 3050 8GB</li>
+            </ul>
+            <p class="build__price">Desde S/ 2,790</p>
+            <p class="build__tag">Ref. Infotron</p>
+          </div>
+        </article>
+
+        <!-- Creativa -->
+        <article class="card build">
+          <div class="card__body">
+            <h3 class="card__title">PC Creativa</h3>
+            <p class="build__usage">Edición de foto, video y diseño.</p>
+            <ul class="build__specs">
+              <li>Ryzen 7 / i7</li>
+              <li>32 GB RAM</li>
+              <li>SSD 1 TB NVMe</li>
+              <li>RTX 4060</li>
+            </ul>
+            <p class="build__price">Desde S/ 4,400</p>
+            <p class="build__tag">Ref. Teros</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="section__note">Cotizaciones personalizadas vía WhatsApp.</p>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 HISTORIAL DE PCS ARMADAS -->
+  <!-- ========================================================= -->
+  <section id="historial-equipos" class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Historial de PCs Armadas por Atreus PC</h2>
+        <p class="section__subtitle">Ejemplos reales de equipos que ya se han vendido.</p>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Nombre</th>
+              <th>CPU</th>
+              <th>GPU</th>
+              <th>RAM</th>
+              <th>Almacenamiento</th>
+              <th>Precio (S/)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025-11-20</td>
+              <td>PC Gamer "Pepa RP"</td>
+              <td>Ryzen 5 5600</td>
+              <td>RTX 3050</td>
+              <td>16 GB</td>
+              <td>SSD 500 GB NVMe</td>
+              <td>2,900</td>
+            </tr>
+            <tr>
+              <td>2025-11-10</td>
+              <td>PC Oficina Estudio</td>
+              <td>Core i5 12400</td>
+              <td>Integrado</td>
+              <td>16 GB</td>
+              <td>SSD 480 GB + HDD 1 TB</td>
+              <td>2,200</td>
+            </tr>
+            <tr>
+              <td>2025-10-05</td>
+              <td>PC Diseño</td>
+              <td>Ryzen 7 5800X</td>
+              <td>RTX 4060</td>
+              <td>32 GB</td>
+              <td>SSD 1 TB NVMe</td>
+              <td>4,800</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 DETALLE DE EQUIPO -->
+  <!-- ========================================================= -->
+  <section id="detalle-equipo" class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Detalle del Equipo</h2>
+        <p class="section__subtitle">
+          Haz clic en cualquier PC de la sección “Equipos Nuevos” para ver aquí sus detalles técnicos.
+        </p>
+      </div>
+
+      <article class="card" id="detalleCard" style="display: none;">
+        <div class="card__body">
+          <h3 class="card__title" id="detalleNombre"></h3>
+          <p class="build__usage" id="detalleUso"></p>
+          <ul class="build__specs" id="detalleSpecs"></ul>
+          <p class="build__price" id="detallePrecio"></p>
+          <p class="section__note" id="detalleNota">
+            Puedes usar este detalle como ficha técnica para mostrar al cliente.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 HISTORIAL DE COMPONENTES (CON FILTROS) -->
+  <!-- ========================================================= -->
+  <section id="historial-componentes" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Historial Técnico de Componentes</h2>
+        <p class="section__subtitle">
+          Usa estos filtros para ver rápido solo GPUs, monitores, periféricos, almacenamiento o fuentes/cases.
+        </p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="components-filters">
+        <button class="components-filters__btn is-active" data-filter="all">Todo</button>
+        <button class="components-filters__btn" data-filter="gpu">GPUs</button>
+        <button class="components-filters__btn" data-filter="monitor">Monitores</button>
+        <button class="components-filters__btn" data-filter="periferico">Periféricos</button>
+        <button class="components-filters__btn" data-filter="almacenamiento">Almacenamiento</button>
+        <button class="components-filters__btn" data-filter="fuente-case">Fuentes &amp; Cases</button>
+      </div>
+
+      <!-- BLOQUE: GPUs -->
+      <div class="component-block" data-type="gpu">
+        <h3 class="subsection-title">Tarjetas Gráficas</h3>
+        <div class="table-wrapper">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Tienda ref.</th>
+                <th>Precio ref. (S/)</th>
+                <th>Uso recomendado</th>
+                <th>Notas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>RTX 3050 6 GB Gigabyte</td>
+                <td>Infotron</td>
+                <td>880</td>
+                <td>Gaming 1080p medio/alto</td>
+                <td>Ideal para PCs gamer económicas.</td>
+              </tr>
+              <tr>
+                <td>RTX 3050 8 GB MSI</td>
+                <td>Infotron</td>
+                <td>810</td>
+                <td>Gaming 1080p</td>
+                <td>Excelente relación precio-rendimiento.</td>
+              </tr>
+              <tr>
+                <td>RTX 3050 6 GB ASUS</td>
+                <td>Digitec</td>
+                <td>999</td>
+                <td>Gaming 1080p + streaming ligero</td>
+                <td>Marca reconocida, buen sistema térmico.</td>
+              </tr>
+              <tr>
+                <td>RTX 4060 8 GB</td>
+                <td>Digitec</td>
+                <td>1,559</td>
+                <td>Gaming 1080p/1440p</td>
+                <td>Perfecta para equipos gamer de gama media.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- BLOQUE: Monitores -->
+      <div class="component-block" data-type="monitor">
+        <h3 class="subsection-title">Monitores</h3>
+        <div class="table-wrapper">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Tamaño / Hz</th>
+                <th>Tienda ref.</th>
+                <th>Precio ref. (S/)</th>
+                <th>Notas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Teros TE-2714S</td>
+                <td>27" / 144 Hz</td>
+                <td>Infotron</td>
+                <td>399</td>
+                <td>Excelente para shooters competitivos.</td>
+              </tr>
+              <tr>
+                <td>Monitor 24" IPS 144 Hz</td>
+                <td>24" / 144 Hz</td>
+                <td>Varios</td>
+                <td>450–550</td>
+                <td>Ideal para PC gamer gama media.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- BLOQUE: Periféricos -->
+      <div class="component-block" data-type="periferico">
+        <h3 class="subsection-title">Teclados, mouse y periféricos</h3>
+        <div class="table-wrapper">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Modelo / descripción</th>
+                <th>Precio ref. (S/)</th>
+                <th>Notas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Teclado mecánico RGB</td>
+                <td>Redragon / similar</td>
+                <td>150–220</td>
+                <td>Perfecto para gaming y streaming.</td>
+              </tr>
+              <tr>
+                <td>Mouse gamer RGB</td>
+                <td>8000–12000 DPI</td>
+                <td>70–120</td>
+                <td>Upsell ideal en PCs gamer.</td>
+              </tr>
+              <tr>
+                <td>Combo teclado + mouse básico</td>
+                <td>Oficina / estudio</td>
+                <td>45–80</td>
+                <td>Inclúyelo en PCs de oficina.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- BLOQUE: Almacenamiento -->
+      <div class="component-block" data-type="almacenamiento">
+        <h3 class="subsection-title">Almacenamiento (SSD / HDD)</h3>
+        <div class="table-wrapper">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Capacidad</th>
+                <th>Precio ref. (S/)</th>
+                <th>Notas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SSD SATA</td>
+                <td>240–256 GB</td>
+                <td>90–130</td>
+                <td>Para revivir PCs lentas.</td>
+              </tr>
+              <tr>
+                <td>SSD NVMe</td>
+                <td>500–512 GB</td>
+                <td>170–250</td>
+                <td>Excelente para PCs rápidas.</td>
+              </tr>
+              <tr>
+                <td>HDD 1 TB</td>
+                <td>1 TB</td>
+                <td>150–200</td>
+                <td>Solo para almacenamiento grande.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- BLOQUE: Fuentes y Cases -->
+      <div class="component-block" data-type="fuente-case">
+        <h3 class="subsection-title">Fuentes y Cases</h3>
+        <div class="table-wrapper">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Especificación</th>
+                <th>Precio ref. (S/)</th>
+                <th>Notas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fuente 500–550W 80+ White/Bronze</td>
+                <td>Para PCs gamer media</td>
+                <td>160–260</td>
+                <td>No escatimar aquí: muy importante.</td>
+              </tr>
+              <tr>
+                <td>Fuente 650W 80+ Bronze/Gold</td>
+                <td>Para RTX 4060/4070</td>
+                <td>280–420</td>
+                <td>Recomendado para PCs gama alta.</td>
+              </tr>
+              <tr>
+                <td>Case RGB con 3–4 ventiladores</td>
+                <td>Ventilación + estética</td>
+                <td>160–260</td>
+                <td>Presentación final del armado.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="section__note">
+        Los precios son referenciales y pueden variar según stock, promociones o proveedor.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 CONTACTO -->
+  <!-- ========================================================= -->
+  <section id="contacto" class="section section--contact">
+    <div class="container grid grid--2">
+      <div>
+        <h2 class="section__title">Contáctame</h2>
+        <p class="section__subtitle">Envíame tu requerimiento y te cotizo rápido.</p>
+
+        <p><strong>WhatsApp:</strong> +51 999 999 999</p>
+        <p><strong>Correo:</strong> soporte@atreuspc.com</p>
+        <p><strong>Ubicación:</strong> Ayacucho – Perú</p>
+      </div>
+
+      <form class="form">
+        <div class="form__group">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" placeholder="Tu nombre" />
+        </div>
+
+        <div class="form__group">
+          <label for="whatsapp">WhatsApp</label>
+          <input id="whatsapp" type="text" placeholder="+51 ..." />
+        </div>
+
+        <div class="form__group">
+          <label for="tipo">¿Qué necesitas?</label>
+          <select id="tipo">
+            <option value="repuesto">Repuesto</option>
+            <option value="servicio">Servicio técnico</option>
+            <option value="equipo">PC nueva</option>
+          </select>
+        </div>
+
+        <div class="form__group">
+          <label for="detalle">Detalle</label>
+          <textarea id="detalle" rows="4" placeholder="Describe el problema"></textarea>
+        </div>
+
+        <button class="btn btn--primary btn--full" type="button">Enviar (demo)</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- 🔷 FOOTER -->
+  <!-- ========================================================= -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>© 2025 Atreus PC – Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a
+    href="https://wa.me/51924973506?text=Hola%20Atreus%20PC,%20quiero%20una%20cotizaci%C3%B3n."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener"
+  >
+    💬
+  </a>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
